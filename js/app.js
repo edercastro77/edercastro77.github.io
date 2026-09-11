@@ -109,6 +109,16 @@
       '<li>You earn <b>XP</b>, <b>levels</b> and <b>badges</b> as you go. Everything is saved in this browser.</li>' +
       '</ul>';
     view.appendChild(how);
+
+    const dedication = el('div', 'dedication');
+    dedication.innerHTML =
+      '<div class="ded-emoji">🐍❤️🎮</div>' +
+      '<p class="ded-to">For <b>Aldrick Castro</b></p>' +
+      '<p class="ded-text">I built this quest just for you, so you can learn Python and make the video games ' +
+      'you imagine. Take your time, break things, and enjoy every bug you fix. ' +
+      'I cannot wait to play the games you create.</p>' +
+      '<p class="ded-from">— Dad, Eder Castro</p>';
+    view.appendChild(dedication);
   }
 
   function pageStage(id) {
