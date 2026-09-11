@@ -1,1 +1,68 @@
-<!doctype html><html lang="es-Mx"><head><meta charset="utf-8"/><meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type"/><meta name="viewport" content="width=device-width,initial-scale=1"/><meta name="theme-color" content="#000000"/><title>East Murrieta (old)</title><script defer="defer" src="bundle.js"></script><script defer="defer" src="bundle.js"></script><script defer="defer" src="bundle.js"></script><script defer="defer" src="bundle.js"></script></head><body><noscript>You need to enable JavaScript to run this app.</noscript><div id="root"></div></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Python Quest 🐍 — Learn Python by Making Games</title>
+<meta name="description" content="Python Quest: a game-like, interactive Python course for young beginners who want to make video games." />
+<meta name="theme-color" content="#0d1117" />
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🐍</text></svg>" />
+<link rel="stylesheet" href="css/style.css?v=1" />
+</head>
+<body>
+
+<header class="topbar">
+  <a class="logo" href="#/">
+    <span class="logo-emoji">🐍</span>
+    <span class="logo-text">PYTHON<b>QUEST</b></span>
+  </a>
+
+  <div class="hero-stats">
+    <div class="level-chip" id="levelChip">
+      <span class="level-num" id="levelNum">1</span>
+      <span class="level-name" id="levelName">Newbie Coder</span>
+    </div>
+    <div class="xpbar" title="Experience points">
+      <div class="xpbar-fill" id="xpFill"></div>
+      <span class="xpbar-text" id="xpText">0 / 500 XP</span>
+    </div>
+  </div>
+
+  <nav class="topnav">
+    <a href="#/">🗺️ Map</a>
+    <a href="#/playground">🌐 Playground</a>
+    <a href="#/lab">🎮 Game Lab</a>
+    <a href="#/terminal">💻 Terminal</a>
+    <a href="#/badges">🏆 Badges</a>
+    <a href="#/parents">👨‍👩‍👦 Grown-ups</a>
+  </nav>
+
+  <button class="menu-btn" id="menuBtn" aria-label="Menu">☰</button>
+</header>
+
+<main id="view" class="view"></main>
+
+<footer class="footer">
+  <span>Python Quest — learn Python by building games. Keep going, hero! 🗡️</span>
+</footer>
+
+<div id="toaster" class="toaster" aria-live="polite"></div>
+<div id="fx" class="fx" aria-hidden="true"></div>
+
+<!-- curriculum data -->
+<script src="data/stage0.js?v=1"></script>
+<script src="data/stage1.js?v=1"></script>
+<script src="data/stage2.js?v=1"></script>
+<script src="data/stage3.js?v=1"></script>
+<script src="data/stage4.js?v=1"></script>
+<script src="data/stage5.js?v=1"></script>
+
+<!-- engine -->
+<script src="js/progress.js?v=1"></script>
+<script src="js/runner.js?v=1"></script>
+<script src="js/gamelab.js?v=1"></script>
+<script src="js/terminal.js?v=1"></script>
+<script src="js/blocks.js?v=1"></script>
+<script src="js/app.js?v=1"></script>
+</body>
+</html>
